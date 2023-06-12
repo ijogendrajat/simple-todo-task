@@ -68,8 +68,8 @@ class _HomeScreenState extends State<HomeScreen> {
     setState(() {
       todo.remove(todo[index]);
       deletedtodo.add(todo[index]);
-      print(todo);
-      print(deletedtodo);
+      // print(todo);
+      // print(deletedtodo);
       saveTodos();
     });
   }
